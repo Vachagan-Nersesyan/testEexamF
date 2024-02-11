@@ -1,0 +1,27 @@
+.table_subject_content {
+    width: 100%;
+}
+
+.table_subject_content_title {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: black;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.table_subject_content_col {
+    margin: 1em;
+}
+
+.table_subject_content_col a {
+    border: 1px solid black;
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: black;
+    padding: 1em 2em;
+    transition: .3s ease-in-out;
+}
+
+.table_subject_content_col a:hover {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,171 @@
+.subject_exma_item_content {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row; */
+    margin-bottom: .5em;
+    width: 100%;
+}
+
+.subject_exma_item_content_1_title {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    font-size: 1.3em;
+    color: black;
+    width: 15%;
+    margin-bottom: 1em;
+}
+
+
+.subject_exma_item_content_2_item,
+.subject_exma_item_content_2_item_1_item_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.subject_exma_item_content_2_item_2_item {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.subject_exma_item_content_2_item {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subject_exma_item_content_2_item_1_item_1 {
+    /* display: fle; */
+}
+
+.subject_exma_item_content_2_item_1_item_1 input {
+    width: 100%;
+    border: 2px solid #9289ff;
+    padding: 1em;
+}
+
+.subject_exma_item_content_2_item_1_item_2 button {
+    padding: 1em;
+    background-color: #9289ff;
+    color: white;
+    border: 2px solid #9289ff;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.subject_exma_item_content_2_item_1_item_2 button:hover {
+    background-color: transparent;
+    color: #9289ff;
+}
+
+.subject_exma_item_content_sec_col_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+}
+
+.subject_exma_item_content_sec_col_2 img {
+    width: 67%;
+}
+
+.subject_exma_item_content_2_item_3_item {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.subject_exma_item_content_2_item_3_item button {
+    padding: .5em;
+    background-color: #172B4D;
+    color: white;
+    border: 2px solid #172B4D;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.subject_exma_item_content_2_item_3_item button:hover {
+    background-color: transparent;
+    color: #172B4D;
+}
+
+.subject_exma_item_content_2_item_1_item {
+    /* position: absolute; */
+    /* display: none; */
+}
+
+.subject_exma_item_content_2_item_1_item:hover {
+    display: block;
+}
+
+.subject_exma_item_content_2_item_3_item button.hover+.subject_exma_item_content_2_item_1_item {
+    display: block;
+}
+
+.subject_exma_item_content_sec_col {
+    padding: 0 1em;
+}
+
+.subject_exma_item_content_sec_col_content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.subject_exma_item_content_sec_col_1 {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: black;
+}
+
+.subject_exma_item_content_sec_col_2 button {
+    padding: 1em;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+.subject_exma_item_content_sec_col_2 button:hover {
+    background-color: white;
+    color: black;
+}
+
+.exam_mdl_content_title {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+
+.exam_mdl_content_txt_1 {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: black;
+    font-weight: 300;
+    margin-bottom: .4em;
+}
+
+.exam_mdl_content_txt {
+    margin-bottom: 2em;
+}
+
+.subject_exma_item_content_sec_col_loader {
+    width: 10%;
+}
+
+.subject_exma_item_content_sec_col_loader img {
+    width: 100%;
+}
+
+.exam_mdl_content_txt_3 {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: red;
+    font-size: .8em;
+}

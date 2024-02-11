@@ -1,0 +1,235 @@
+.login_content {
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: black; */
+}
+
+.login_content_container {
+    padding-top: 10em;
+    margin: 0 auto;
+    width: 32%;
+}
+
+.login_content_container_cont {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    border-radius: .3em;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, .6);
+    box-shadow: 0px 3px 24px 0px rgba(188, 178, 178, 0.75);
+    align-items: center;
+    height: 17em;
+    /* box-shadow: -1px 1px 20px 0px rgba(0, 0, 0, 0.75); */
+}
+
+.login_content_container_title {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    font-size: 1.5em;
+    /* margin-bottom: 1em; */
+    color: white;
+    font-weight: 700;
+}
+
+.login_content_text_item_1 {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: .5em;
+}
+
+.login_content_text_item_1 span {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    font-size: 1em;
+    margin-bottom: .3em;
+    font-weight: 700;
+}
+
+.login_content_text_item_2_1 {
+    margin-bottom: 1em;
+    max-width: 100%;
+}
+
+.login_content_text_item_2 {
+    width: 80%;
+}
+
+.login_content_text_item_2_1 input {
+    border: 1px solid black;
+    width: 100%;
+    outline: none;
+    font-family: 'Noto Sans Armenian', sans-serif;
+    padding: .5em.3em;
+    font-weight: 700;
+    border-radius: .1em;
+}
+
+.login_content_text_item_2_2 {
+    width: 103%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.login_content_text_item_2_2 button {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    padding: .5em;
+    width: 100%;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    transition: .3s ease-in-out;
+    border-radius: .1em;
+}
+
+.login_content_text_item_2_2 button:hover {
+    background-color: black;
+    color: white;
+}
+
+.login_content_text_item_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login_content_text_item_3_1 {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    font-size: .8em;
+    font-weight: 700;
+    color: white;
+    margin-bottom: .5em;
+}
+
+.login_content_text_item_3_2 {
+    margin-bottom: .5em;
+}
+
+.login_content_text_item_3_2 input {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    padding: .2em;
+    background-color: transparent;
+    border: 1px solid white;
+    background-color: white;
+    text-align: center;
+    font-weight: 700;
+    outline: none;
+    width: 100%;
+}
+
+.login_content_text_item_3_3 button {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    padding: .5em;
+    background-color: black;
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+.login_content_text_item_3_3 button:hover {
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width: 760px) {
+    .login_content_container {
+        text-align: center;
+        padding-top: 5em;
+        width: 80%;
+    }
+
+    .login_content_text_item_2_2 {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .login_content_container {
+        width: 60%;
+        text-align: center;
+    }
+
+    .login_content_text_item_2 {
+        text-align: center;
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+
+    .login_content_container {
+        width: 40%;
+    }
+
+    .login_content_text_item_2 {
+        text-align: center;
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .login_content_container {
+        width: 32%
+    }
+
+    .login_content_text_item_2 {
+        text-align: center;
+        width: 60%
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .student_content_container {
+        width: 80%;
+    }
+
+    .student_content_container_txt_content_1_1,
+    .student_content_container_txt_content_1_2 {
+        width: 100%;
+    }
+
+    .student_content_container_txt_content_1_1 {
+        margin-bottom: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .student_content_container {
+        width: 60%;
+    }
+
+    .student_content_container_txt_content {
+        padding-top: 20%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .student_content_container {
+        width: 50%;
+    }
+}
+
+.login_content_text_item_loader {
+    width: 10%;
+}
+
+.login_content_text_item_loader img {
+    width: 100%;
+}
+
+.login_content_text_item_2_2_title {
+    color: white;
+}

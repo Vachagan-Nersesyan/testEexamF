@@ -1,0 +1,45 @@
+.subject_exma_item_content_2_item_2_item_1 {
+    position: relative;
+}
+
+.subject_exma_item_content_2_item_2_item_1_in_item {
+    padding: 1em;
+    margin: 1em;
+    background-color: #172B4D;
+    color: white;
+    border: 1px solid #172B4D;
+    transition: .3s ease-in-out;
+}
+
+.subject_exma_item_content_2_item_2_item_1_in_item:hover {
+    background-color: transparent;
+    color: #172B4D;
+}
+
+.subject_exam_item_qw {
+    width: 100%;
+    padding-bottom: .5em;
+    margin-bottom: .5em;
+    padding: 0 1em;
+}
+
+.subject_exam_item_qw_sec_col {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+.subject_exma_item_content_2_item_2_item_1_print_content_1 {
+    padding: .5em 1em;
+    border: 1px solid black;
+    font-family: 'Noto Sans Armenian', sans-serif;
+    background-color: transparent;
+    color: black;
+    transition: .3s ease-in-out;
+}
+
+.subject_exma_item_content_2_item_2_item_1_print_content_1:hover {
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+}

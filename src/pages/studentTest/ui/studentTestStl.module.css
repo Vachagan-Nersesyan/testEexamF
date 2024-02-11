@@ -1,0 +1,568 @@
+.make_test_content {
+    width: 100%;
+    min-height: 1em;
+    /* padding-top: 3em; */
+}
+
+.make_test_content_container {
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid black;
+    width: 99%;
+}
+
+/* .make_test_content_container_overlay {
+
+    padding: 2em;
+} */
+
+.make_test_content_in_item {
+    margin-bottom: 2em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.make_test_content_in_item_title {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.make_test_content_in_item_in_txt_content_f,
+.make_test_content_in_item_in_txt_content_f_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.make_test_content_in_item_in_txt_content_f_item_1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.make_test_content_in_item_in_txt_content_f_item_1_1 {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 1em;
+}
+
+.make_test_content_in_item_in_txt_content_f_item_1_2 {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: black;
+    font-size: 1.2em;
+}
+
+.make_test_content_in_item_in_txt_content_f_item_2_1 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: .5em;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+    appearance: none;
+    outline: 0;
+    background: white;
+    height: 14px;
+    width: 16px;
+    border: 1px solid black;
+}
+
+input[type="radio"]:checked {
+    background: #005cc8;
+}
+
+input[type="radio"]:after {
+    content: '';
+    position: relative;
+    left: 38%;
+    top: 20%;
+    width: 15%;
+    height: 40%;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    display: none;
+}
+
+input[type="radio"]:checked:after {
+    display: block;
+}
+
+.make_test_content_in_item_in_txt_content_f_item_2_1_1 {
+    margin-right: 1em;
+}
+
+.make_test_content_in_item_in_txt_content_f_item_2_1_2 {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: .9em;
+}
+
+.make_test_content_in_item_in_txt_content_s_item {
+    margin-bottom: 1em;
+}
+
+.make_test_content_in_item_in_txt_content_s_item,
+.make_test_content_in_item_in_txt_content_t_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.make_test_content_in_item_in_txt_content_s_item_1 {
+    margin-bottom: .5em;
+    font-family: 'Noto Sans Armenian', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+.make_test_content_in_item_in_txt_content_s_item_2_b_tp {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* flex-direction: row; */
+}
+
+.make_test_content_in_item_in_txt_content_s_item_2_b_tp input {
+    padding: .5em;
+    width: 40%;
+    font-family: 'Noto Sans Armenian', sans-serif;
+    outline: none;
+    font-weight: 700;
+}
+
+.make_test_content_in_item_in_txt_content_s_item_2_1 input {
+    /* width: 55%; */
+    outline: none;
+    /* height: 15px; */
+}
+
+.make_test_content_in_item_in_txt_content_t_item_2_1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.make_test_content_in_item_in_txt_content_t_item_2_1_1 {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: .4em;
+}
+
+
+.make_test_content_in_item_in_txt_content_t_item_2_1_2 {
+    padding: .2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.make_test_content_in_item_in_txt_content_t_item_2_1_2 input {
+    width: 55%;
+}
+
+
+.make_test_content_in_item_in_txt_content_t_item_2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 20%;
+}
+
+.make_test_content_title {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    text-align: center;
+    padding-top: .7em;
+    font-size: 1em;
+    margin-bottom: 1.7em;
+    font-weight: 700;
+}
+
+.make_test_content_title span {
+    margin-right: .5em;
+}
+
+.make_test_content_title input {
+    border: none;
+    font-family: 'Noto Sans Armenian', sans-serif;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 2%;
+    font-size: 1.1em;
+
+}
+
+.make_test_content_container_overlay {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.make_test_content_in_item_in_1 {
+    /* width: 40%; */
+    margin: 1em;
+}
+
+.make_test_content_in_item_in_1_1 {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 1em;
+}
+
+.make_test_content_in_item_in_1_1c {
+    /* border-right: 1px solid black; */
+    display: flex;
+}
+
+.make_test_content_in_item_in_1_1_1,
+.make_test_content_in_item_in_1_1_2 {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: black;
+    font-weight: 700;
+    padding: .3em;
+    font-size: 1em;
+}
+
+.make_test_content_in_item_in_1_1_2 {
+    border-left: 1px solid black;
+}
+
+.make_test_content_in_item_in_1_1_1_b {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    padding: .3em;
+    color: black;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.make_test_content_in_item_in_1_1_1 {
+    margin-right: 1em;
+}
+
+.make_test_content_in_item_in_1_2 {
+    margin-bottom: 1em;
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: .8em;
+    border-bottom: 1px solid black;
+    padding-bottom: .5em;
+}
+
+.make_test_content_in_item_in_1_3 {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.make_test_content_in_item_in_1_3_1 {
+    width: 50%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    font-size: 1em;
+    /* flex-direction: row; */
+    margin-bottom: .5em;
+}
+
+.make_test_content_in_item_in_1_3_1_1 {
+    font-weight: 700;
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: black;
+    margin-right: 1.5em;
+}
+
+.make_test_content_in_item_in_1_3_1_2 {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: black;
+    font-size: 1.3em;
+    overflow-wrap: anywhere;
+}
+
+
+.make_test_content_container_title_content_in_1 {
+    padding-top: 1em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+}
+
+.make_test_content_container_title_content_in_1_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4em;
+    height: 2em;
+}
+
+.make_test_content_container_title_content_in_1_1 img {
+    width: 100%;
+}
+
+.make_test_content_container_title_content_in_1_2,
+.make_test_content_container_title_content_in_1_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.make_test_content_container_title_content_in_1_2_1 {
+    font-weight: 700;
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: black;
+    margin-bottom: .5em;
+    font-size: 1em;
+}
+
+.make_test_content_container_title_content_in_1_3_2 {
+    border: 1px solid black;
+    /* padding: 1.7em 0; */
+    position: relative;
+    width: 84%;
+    height: 5em;
+}
+
+.make_test_content_container_title_content_in_1_3_1 {
+    font-weight: 700;
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: black;
+    font-size: 1em;
+    margin-bottom: .5em;
+}
+
+.make_test_content_container_title_content_in_1_3_2 span {
+    padding: 0 1em;
+    position: absolute;
+    bottom: .1em;
+    right: .5em;
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.make_test_content_container_title_content_in_2 {
+    display: flex;
+    width: 100%;
+}
+
+.make_test_content_container_title_content_in_2_1_b {
+    width: 15%;
+}
+
+.make_test_content_container_title_content_in_2_1_1,
+.make_test_content_container_title_content_in_2_1_1_b {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: .5em;
+}
+
+.make_test_content_container_title_content_in_2_1_1 span {
+    margin-right: .5em;
+}
+
+.make_test_content_container_title_content_in_2_1_1 input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width: 80%;
+    font-size: 1.1em;
+
+}
+
+
+.make_test_content_container_title_content_in_2_1 {
+    width: 45%;
+}
+
+.make_test_content_container_title_content_in_2_2 {
+    width: 40%
+}
+
+.make_test_content_container_title_content_in_2_1_1_b {
+    text-align: right;
+}
+
+.make_test_content_container_title_content_in_2_1_1_b span {
+    text-decoration: underline;
+}
+
+.make_test_content_container_title_content_in_1_2_1 span {
+    margin-right: .5em;
+}
+
+
+@media print {
+    .printPart {
+        display: none;
+    }
+}
+
+.make_test_content_container_overla_in_itemy {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.variant_content {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+
+.test_exam_questiokn_content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+.make_test_content_in_item_in_1_2 {
+    width: 20%;
+}
+
+.make_test_content_in_item_in_1_2 img {
+    width: 100%;
+}
+
+.test_content_third_content_3_2_3_1_2_122e3 {
+    width: 10%;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1em;
+}
+
+.test_content_third_content_3_2_3_1_2_122e3 img {
+    width: 100%;
+    height: 3em;
+}
+
+.subject_exma_item_content_2_item_2_item_1_print_content_1 {
+    padding-top: 1em;
+    margin: 1em;
+
+}
+
+.subject_exma_item_content_2_item_2_item_1_print_content_1 button {
+    padding: .5em;
+    cursor: pointer;
+    border: 1px solid black;
+    font-family: 'Noto Sans Armenian', sans-serif;
+    background-color: black;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+.subject_exma_item_content_2_item_2_item_1_print_content_1 button:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.printPart {
+    margin: 1em;
+}
+
+.printPart button {
+    padding: .5em;
+    border: 1px solid black;
+    cursor: pointer;
+    font-family: 'Noto Sans Armenian', sans-serif;
+    background-color: black;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+.printPart button:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.make_test_content_in_item_in_1_1_1_title {
+    font-family: 'Noto Sans Armenian', sans-serif;
+
+}
+
+.make_test_content_in_item_in_1_1_1_txt_name p {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    margin-bottom: .5em;
+    color: black;
+}
+
+.make_test_content_in_item_in_1_3_1_overlay {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+}
+
+.test_content_third_content_3_2_3_1_2_1 {
+    margin-right: .5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.test_content_third_content_3_2_3_1_2_1_1 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: row;
+}
+
+.test_content_third_content_3_2_3_1_2_1_1_1 {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    margin-right: .5em;
+    color: black;
+}
+
+.make_test_content_container_title_content_in_2_1_1_subitem {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.make_test_content_container_title_content_in_2_1_1_subitem_1 {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    padding: 0 .5em;
+    font-size: .7em;
+}
+
+.make_test_content_in_item_in_txt_content_s_item_2 {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    flex-direction: row;
+}

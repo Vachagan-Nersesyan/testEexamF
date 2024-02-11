@@ -1,0 +1,213 @@
+.exam_contant {
+    width: 100%;
+    min-height: 77vh;
+}
+
+.exam_contant_container_title {
+    background-color: rgba(74, 58, 255, .6);
+    width: 10%;
+    border-radius: 0 2em 2em 0em;
+    height: 87%;
+    padding: 3em;
+    position: fixed;
+}
+
+.exam_contant_container_logo {
+    margin-bottom: 1em;
+}
+
+.exam_contant_container_title_text {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+.exam_contant_right_content {
+    width: 100%;
+}
+
+.exam_contant_right_content_menu {
+    width: 100%;
+    padding: 1em 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.exam_contant_right_content_menu_user {
+    width: 3%;
+    display: flex;
+    justify-content: end;
+    padding-right: 2em;
+}
+
+.exam_contant_right_content_menu_user img {
+    width: 100%;
+}
+
+.exam_contant_right_content_txt_content {
+    background-color: #fafafc;
+    min-height: 89%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exam_contant_right_content_txt_contentbtn {
+    position: absolute;
+    right: 2em;
+    bottom: 2em;
+    padding: 1em;
+    background-color: #9289ff;
+    color: white;
+    border: 2px solid #9289ff;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.exam_contant_right_content_txt_contentbtn:hover {
+    background-color: transparent;
+    color: #9289ff;
+}
+
+.exam_add_content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.exam_add_content_in_item_1 input {
+    padding: .5em;
+    outline: none;
+    color: #9289ff;
+    border: 2px solid #9289ff;
+}
+
+.exam_add_content_in_item_2 button {
+    padding: .5em;
+    background-color: #172B4D;
+    color: white;
+    border: 2px solid #172B4D;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.exam_add_content_in_item_2 button:hover {
+    background-color: transparent;
+    color: #172B4D;
+}
+
+.exam_contant_container_in_cont_ovrl {
+    padding-top: 4em;
+}
+
+.exam_contant_container_in_cont {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    width: 81%;
+    margin: 0 auto;
+    /* background-color: #9289ff; */
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.exam_contant_container_in_cont_title {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: black;
+    font-weight: 700;
+}
+
+.exam_mdl_content_title {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+
+.exam_mdl_content_txt_1 {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    color: black;
+    font-weight: 300;
+    margin-bottom: .4em;
+}
+
+.exam_mdl_content_txt {
+    margin-bottom: 2em;
+}
+
+
+.exam_contant_container_in_cont_item {
+    width: 20.5%;
+    padding: 1em;
+    margin: 1.4em;
+    border: 1px solid black;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10em;
+    position: relative;
+}
+
+.exam_contant_container_in_cont_item:hover {
+    background-color: black;
+    color: white;
+}
+
+.exam_contant_container_in_cont_item a {
+    text-decoration: none;
+    font-family: 'Noto Sans Armenian', sans-serif;
+    font-weight: 700;
+    color: white;
+    /* padding: 1em 1.6em; */
+}
+
+.exam_contant_container_in_cont_item_1 {
+    position: absolute;
+    top: .5em;
+    right: .5em;
+}
+
+@media only screen and (max-width: 767px) {
+    .exam_contant_container_title {
+        width: 100%;
+    }
+
+    .exam_contant_right_content_menu_user {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .exam_contant_container_title {
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .exam_contant_container_title {
+        width: 15%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .exam_contant_container_title {
+        width: 10%;
+    }
+}
+
+.login_content_text_item_loader {
+    width: 10%;
+}
+
+.login_content_text_item_loader img {
+    width: 100%;
+}

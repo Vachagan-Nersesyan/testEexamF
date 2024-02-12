@@ -19,10 +19,10 @@ import { v4 as uuidv4 } from 'uuid';
 import pic from '../images/1.png'
 import loader from '../images/2.gif'
 
-import 'froala-editor/css/froala_style.min.css';
-import 'froala-editor/css/froala_editor.pkgd.min.css';
+// import 'froala-editor/css/froala_style.min.css';
+// import 'froala-editor/css/froala_editor.pkgd.min.css';
 
-import FroalaEditorComponent from 'react-froala-wysiwyg';
+// import FroalaEditorComponent from 'react-froala-wysiwyg';
 
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';

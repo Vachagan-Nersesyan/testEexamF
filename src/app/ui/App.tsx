@@ -10,7 +10,7 @@ import { AllTeacherInfoType } from 'entities/adminR/adminReducerTs.interface';
 import { changeStudentNumInfo } from 'entities/adminR/adminReducer';
 
 const TestComp = lazy(() => import('pages/test'))
-const MakeTestComp = lazy(() => import('pages/makeTest'))
+// const MakeTestComp = lazy(() => import('pages/makeTest'))
 
 const FinalTestComp = lazy(() => import('pages/finalTest'))
 const WorkspaceComp = lazy(() => import('pages/exams'))
@@ -120,7 +120,7 @@ const App: React.FC<OwnProps> = () => {
 
               <Route path='/test-items' element={<TestComp />} />
               <Route path='/test' element={<FinalTestComp />} />
-              <Route path='/new-test' element={<MakeTestComp />} />
+              {/* <Route path='/new-test' element={<MakeTestComp />} /> */}
 
               <Route path='/workspace' element={<LayoutComp />} />
 

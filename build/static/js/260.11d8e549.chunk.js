@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[260],{4260:(s,e,a)=>{a.r(e),a.d(e,{default:()=>d});var i=a(9060),n=a(1560),p=a(624),c=a(2496);const d=()=>{const s=(0,p.w1)((s=>s.adminR.isAdmin)),e=(0,n.i6)();return s||e("/"),(0,i.useEffect)((()=>{e("/all-exams")}),[]),(0,c.jsx)("div",{children:"This is admin page"})}}}]);
+//# sourceMappingURL=260.11d8e549.chunk.js.map
